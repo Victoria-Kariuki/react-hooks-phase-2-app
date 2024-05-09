@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ContactUs() {
+function Dashboard() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function ContactUs() {
   )
 }
 
-export default ContactUs;
+export default Dashboard;
