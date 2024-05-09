@@ -6,8 +6,8 @@ import Sidebar from './components/SideBar';
 import About from './components/About';
 import ContactUs from './components/ContactUs';
 import Register from './components/Register';
+import SearchBar from "./SearchBar"
 import "./App.css"
-import 
 
 const App = () => {
   return (
