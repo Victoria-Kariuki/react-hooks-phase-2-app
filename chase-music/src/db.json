@@ -1639,3 +1639,207 @@
       }
     ]
   }
+=======
+"artists": [
+    {
+      "name": "Burna Boy",
+      "genre": "Afrobeats",
+      "albums": [
+        {
+          "title": "African Giant",
+          "release_year": 2019,
+          "tracks": 19
+        },
+        {
+          "title": "Twice As Tall",
+          "release_year": 2020,
+          "tracks": 15
+        },
+        {
+          "title": "Outside",
+          "release_year": 2018,
+          "tracks": 13
+        }
+      ]
+    },
+    {
+      "name": "Wizkid",
+      "genre": "Afrobeats",
+      "albums": [
+        {
+          "title": "Made in Lagos",
+          "release_year": 2020,
+          "tracks": 14
+        },
+        {
+          "title": "Ayo",
+          "release_year": 2014,
+          "tracks": 18
+        },
+        {
+          "title": "Superstar",
+          "release_year": 2011,
+          "tracks": 17
+        }
+      ]
+    },
+    {
+      "name": "Davido",
+      "genre": "Afrobeats",
+      "albums": [
+        {
+          "title": "A Better Time",
+          "release_year": 2020,
+          "tracks": 17
+        },
+        {
+          "title": "A Good Time",
+          "release_year": 2019,
+          "tracks": 17
+        },
+        {
+          "title": "Omo Baba Olowo",
+          "release_year": 2012,
+          "tracks": 17
+        }
+      ]
+    },
+    {
+      "name": "Tiwa Savage",
+      "genre": "Afrobeats",
+      "albums": [
+        {
+          "title": "Celia",
+          "release_year": 2020,
+          "tracks": 13
+        },
+        {
+          "title": "Once Upon a Time",
+          "release_year": 2013,
+          "tracks": 19
+        },
+        {
+          "title": "R.E.D",
+          "release_year": 2015,
+          "tracks": 16
+        }
+      ]
+    },
+    {
+      "name": "Olamide",
+      "genre": "Afrobeats",
+      "albums": [
+        {
+          "title": "Carpe Diem",
+          "release_year": 2020,
+          "tracks": 12
+        },
+        {
+          "title": "YBNL",
+          "release_year": 2012,
+          "tracks": 20
+        },
+        {
+          "title": "Eyan Mayweather",
+          "release_year": 2015,
+          "tracks": 21
+        }
+      ]
+    },
+    {
+      "name": "Yemi Alade",
+      "genre": "Afrobeats",
+      "albums": [
+        {
+          "title": "Woman of Steel",
+          "release_year": 2019,
+          "tracks": 15
+        },
+        {
+          "title": "Mama Africa",
+          "release_year": 2016,
+          "tracks": 15
+        },
+        {
+          "title": "King of Queens",
+          "release_year": 2014,
+          "tracks": 20
+        }
+      ]
+    },
+    {
+      "name": "Mr Eazi",
+      "genre": "Afrobeats",
+      "albums": [
+        {
+          "title": "Life Is Eazi, Vol. 2 - Lagos to London",
+          "release_year": 2018,
+          "tracks": 15
+        },
+        {
+          "title": "Life Is Eazi, Vol. 1 - Accra To Lagos",
+          "release_year": 2017,
+          "tracks": 14
+        },
+        {
+          "title": "Something Else",
+          "release_year": 2021,
+          "tracks": 5
+        }
+      ]
+    },
+    {
+      "name": "Patoranking",
+      "genre": "Afrobeats",
+      "albums": [
+        {
+          "title": "Three",
+          "release_year": 2020,
+          "tracks": 12
+        },
+        {
+          "title": "God Over Everything",
+          "release_year": 2016,
+          "tracks": 16
+        }
+      ]
+    },
+    {
+      "name": "Rema",
+      "genre": "Afrobeats",
+      "albums": [
+        {
+          "title": "Rave & Roses",
+          "release_year": 2021,
+          "tracks": 8
+        },
+        {
+          "title": "Rema Compilation",
+          "release_year": 2021,
+          "tracks": 14
+        },
+        {
+          "title": "Bad Commando",
+          "release_year": 2019,
+          "tracks": 4
+        }
+      ]
+    },
+    {
+      "name": "Fireboy DML",
+      "genre": "Afrobeats",
+      "albums": [
+        {
+          "title": "Apollo",
+          "release_year": 2020,
+          "tracks": 17
+        },
+        {
+          "title": "Laughter, Tears and Goosebumps",
+          "release_year": 2019,
+          "tracks": 13
+        }
+      ]
+    }
+  ]
+
