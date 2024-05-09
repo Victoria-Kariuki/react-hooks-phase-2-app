@@ -1,28 +1,16 @@
-import React from "react";
+import React from 'react';
 
-function SearchBar(props) {
-  const [query, setQuery] = useState('');
-
-  const handleSearch = (e) => {
-    setSearch(e.target.value)
-  }
-
-  useEffect(() => {
-    if(search !== ""){
-      fetch(`https://itunes.apple.com/search?term=radiohead`)
-    }
-  })
-  
+const SearchBar = (props) => {
   return (
     <div className='search-bar search-bar-sm-4'>
-      <SearchBar onSearch={handleSearch} />
-      <input
-        className="search_input"     
-        placeholder="Search for music..."
-        value={query}
-        onChange={handleChange}
+      <input 
+        className="form-control" 
+        placeholder="Search...." 
+        onChange={(event) => props.setSearchValue(event.target.value)} 
+        value={props.value}
       />
-      <button type="submit">Search</button>
     </div>
-  );
+  )
 }
+
+export default SearchBar;
