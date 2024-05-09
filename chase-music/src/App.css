@@ -1,19 +1,6 @@
-.input-wrapper {
-  background-color: beige;
-  width: 2px;
-  border-radius: 100px;
-  height: 50px;
-  padding: 15px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  z-index: 999;
-}
-
 input {
-  background-color: transparent;
-  border: none;
-  height: 100px;
-  font-size: 1.2rcm;
-  width: 100px;
-  margin-left:  5px;
+  margin-left: 600px;
+  margin-top: 30px;
+  padding: 7px;
+  border-radius: 12px;
 }
