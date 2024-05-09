@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import SearchBar from './SearchBar'
+import MusicCard from './components/MusicCard';
+import MusicQueue from './components/MusicQueue';
+import CurrentMusic from './components/CurrentMusic';
+
 
 function App() {
   return (
