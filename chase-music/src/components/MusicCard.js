@@ -1,18 +1,28 @@
 import React from 'react';
 
-const Card = ({ title, artist, album, imageUrl, onClick }) => {
+const MusicCard = ({ music }) => {
   return (
-    <div className="card" onClick={onClick}>
-      <div className="card-image">
-        <img src={imageUrl} alt="Album Cover" />
+    <div className="music-card">
+      <img src={music.thumbnail} alt="Music Thumbnail" />
+      <div className="details">
+        <p className="title">{music.title}</p>
+        <p className="artist">{music.artist}</p>
       </div>
-      <div className="card-info">
-        <h2 className="card-title">{title}</h2>
-        <p className="card-artist">Artist: {artist}</p>
-        <p className="card-album">Album: {album}</p>
+      <div className="timer">
+        <span>00:00</span>
+        <span>03:00</span>
+      </div>
+      <div className="controls">
+        <i className="material-icons">repeat</i>
+        <i className="material-icons" id="prev">skip_previous</i>
+        <div className="play">
+          <i className="material-icons">play_arrow</i>
+        </div>
+        <i className="material-icons" id="next">skip_next</i>
       </div>
     </div>
   );
 };
 
-export default Card;
+export default MusicCard;
+
