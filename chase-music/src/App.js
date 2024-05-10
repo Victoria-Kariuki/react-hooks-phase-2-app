@@ -1,3 +1,12 @@
+
+import logo from './logo.svg';
+import './App.css';
+import SearchBar from './SearchBar'
+import MusicCard from './components/MusicCard';
+import MusicQueue from './components/MusicQueue';
+import CurrentMusic from './components/CurrentMusic';
+
+
 import React, { useState, useEffect } from "react";
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
@@ -8,6 +17,7 @@ import ContactUs from './components/ContactUs';
 import Register from './components/Register';
 import SearchBar from "./SearchBar"
 import "./App.css"
+
 
 const App = () => {
   return (

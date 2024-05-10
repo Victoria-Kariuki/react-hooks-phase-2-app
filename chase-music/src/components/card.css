@@ -1,0 +1,71 @@
+.music-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .music-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .details {
+    flex-grow: 1;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .artist {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .timer {
+    margin-right: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .material-icons {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .play {
+    border: 2px solid #333;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .play .material-icons {
+    color: #333;
+  }
+  
+  .play:hover {
+    background-color: #333;
+  }
+  
+  .play:hover .material-icons {
+    color: #fff;
+  }
+  
+    
