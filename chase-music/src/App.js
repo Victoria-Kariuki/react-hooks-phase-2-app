@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
-import SearchBar from './SearchBar'
 
-function App() {
+import SearchBar from './components/SearchBar';
+import CurrentMusic from './components/CurrentMusic';
+import './App.css'
+import Header from './components/Header';
+import React, { useEffect, useState } from "react";
+import MusicHeader from './components/MusicHeader';
+
+const App = () => {
+  const [songData, setSongData] = useState(null);
+
+  useEffect(() => {
+    fetch(
+      "https://api.spotify.com/v1/search?q=sweet%20child%20o%20mine%20artist:guns%20n%20roses&type=track&limit=1",
+      {
+      }
+  )
+      .then((response) => response.json())
+      .then((data) => setSongData(data.tracks.items[0]));
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {songData ? (
+        <div>
+          <h1>{songData.name}</h1>
+          <p>{songData.artists[0].name}</p>
+          <img src={songData.album.images[0].url} alt="Album Cover" />
+        </div>
+      ) : (
+        <p>Loading...</p>
+      )}
+      <SearchBar/>
+      <CurrentMusic/>
+      <Header/>
+      <MusicHeader/>
     </div>
   );
 }
